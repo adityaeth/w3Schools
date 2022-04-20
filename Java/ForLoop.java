@@ -7,6 +7,9 @@ public class ForLoop {
         // ForEach Loop.
         String[] names = { "Adi", "Tya", "Pra", "Kash" };
         for (String name : names) {
+            if (name == "Pra")
+                // break;
+                continue;
             System.out.println(name);
         }
     }
